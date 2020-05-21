@@ -8,22 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		D50EA6A22476BAC7002E39E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50EA6A12476BAC7002E39E5 /* AppDelegate.swift */; };
-		D50EA6A42476BAC7002E39E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50EA6A32476BAC7002E39E5 /* SceneDelegate.swift */; };
 		D50EA6A62476BAC7002E39E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50EA6A52476BAC7002E39E5 /* ViewController.swift */; };
 		D50EA6A92476BAC7002E39E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50EA6A72476BAC7002E39E5 /* Main.storyboard */; };
-		D50EA6AB2476BAC8002E39E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50EA6AA2476BAC8002E39E5 /* Assets.xcassets */; };
 		D50EA6AE2476BAC8002E39E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D50EA6AC2476BAC8002E39E5 /* LaunchScreen.storyboard */; };
+		D50EA6BC2476BCBE002E39E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D50EA6B92476BCBD002E39E5 /* Assets.xcassets */; };
+		D50EA6C12476BDF2002E39E5 /* AnimationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50EA6C02476BDF2002E39E5 /* AnimationHelper.swift */; };
+		D50EA6C92476E6C6002E39E5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50EA6C82476E6C6002E39E5 /* SettingsViewController.swift */; };
+		D50EA6CB2476E8B4002E39E5 /* ExerciseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50EA6CA2476E8B4002E39E5 /* ExerciseViewController.swift */; };
+		D50EA6CD2476E8D6002E39E5 /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50EA6CC2476E8D6002E39E5 /* StatisticsViewController.swift */; };
+		D50EA6CF2476E8FC002E39E5 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50EA6CE2476E8FC002E39E5 /* CounterViewController.swift */; };
+		D50EA6D12476FB01002E39E5 /* SettingsSubViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50EA6D02476FB01002E39E5 /* SettingsSubViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D50EA69E2476BAC7002E39E5 /* WorkoutCounter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorkoutCounter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D50EA6A12476BAC7002E39E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D50EA6A32476BAC7002E39E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D50EA6A52476BAC7002E39E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D50EA6A82476BAC7002E39E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D50EA6AA2476BAC8002E39E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D50EA6AD2476BAC8002E39E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D50EA6AF2476BAC8002E39E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D50EA6B92476BCBD002E39E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../../../Desktop/Анимация/AppIcons/Assets.xcassets"; sourceTree = "<group>"; };
+		D50EA6C02476BDF2002E39E5 /* AnimationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationHelper.swift; sourceTree = "<group>"; };
+		D50EA6C82476E6C6002E39E5 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D50EA6CA2476E8B4002E39E5 /* ExerciseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseViewController.swift; sourceTree = "<group>"; };
+		D50EA6CC2476E8D6002E39E5 /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsViewController.swift; sourceTree = "<group>"; };
+		D50EA6CE2476E8FC002E39E5 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
+		D50EA6D02476FB01002E39E5 /* SettingsSubViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsSubViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,60 @@
 		D50EA6A02476BAC7002E39E5 /* WorkoutCounter */ = {
 			isa = PBXGroup;
 			children = (
-				D50EA6A12476BAC7002E39E5 /* AppDelegate.swift */,
-				D50EA6A32476BAC7002E39E5 /* SceneDelegate.swift */,
-				D50EA6A52476BAC7002E39E5 /* ViewController.swift */,
-				D50EA6A72476BAC7002E39E5 /* Main.storyboard */,
-				D50EA6AA2476BAC8002E39E5 /* Assets.xcassets */,
-				D50EA6AC2476BAC8002E39E5 /* LaunchScreen.storyboard */,
-				D50EA6AF2476BAC8002E39E5 /* Info.plist */,
+				D50EA6BF2476BDDE002E39E5 /* Helpers */,
+				D50EA6B52476BB03002E39E5 /* Delegates */,
+				D50EA6B62476BB11002E39E5 /* Controllers */,
+				D50EA6B72476BB1C002E39E5 /* Storyboards */,
+				D50EA6B82476BB2A002E39E5 /* Etc */,
 			);
 			path = WorkoutCounter;
+			sourceTree = "<group>";
+		};
+		D50EA6B52476BB03002E39E5 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				D50EA6A12476BAC7002E39E5 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		D50EA6B62476BB11002E39E5 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D50EA6A52476BAC7002E39E5 /* ViewController.swift */,
+				D50EA6C82476E6C6002E39E5 /* SettingsViewController.swift */,
+				D50EA6D02476FB01002E39E5 /* SettingsSubViewController.swift */,
+				D50EA6CA2476E8B4002E39E5 /* ExerciseViewController.swift */,
+				D50EA6CC2476E8D6002E39E5 /* StatisticsViewController.swift */,
+				D50EA6CE2476E8FC002E39E5 /* CounterViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D50EA6B72476BB1C002E39E5 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				D50EA6A72476BAC7002E39E5 /* Main.storyboard */,
+				D50EA6AC2476BAC8002E39E5 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		D50EA6B82476BB2A002E39E5 /* Etc */ = {
+			isa = PBXGroup;
+			children = (
+				D50EA6B92476BCBD002E39E5 /* Assets.xcassets */,
+				D50EA6AF2476BAC8002E39E5 /* Info.plist */,
+			);
+			path = Etc;
+			sourceTree = "<group>";
+		};
+		D50EA6BF2476BDDE002E39E5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D50EA6C02476BDF2002E39E5 /* AnimationHelper.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D50EA6AE2476BAC8002E39E5 /* LaunchScreen.storyboard in Resources */,
-				D50EA6AB2476BAC8002E39E5 /* Assets.xcassets in Resources */,
+				D50EA6BC2476BCBE002E39E5 /* Assets.xcassets in Resources */,
 				D50EA6A92476BAC7002E39E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,7 +195,12 @@
 			files = (
 				D50EA6A62476BAC7002E39E5 /* ViewController.swift in Sources */,
 				D50EA6A22476BAC7002E39E5 /* AppDelegate.swift in Sources */,
-				D50EA6A42476BAC7002E39E5 /* SceneDelegate.swift in Sources */,
+				D50EA6C12476BDF2002E39E5 /* AnimationHelper.swift in Sources */,
+				D50EA6C92476E6C6002E39E5 /* SettingsViewController.swift in Sources */,
+				D50EA6D12476FB01002E39E5 /* SettingsSubViewController.swift in Sources */,
+				D50EA6CB2476E8B4002E39E5 /* ExerciseViewController.swift in Sources */,
+				D50EA6CF2476E8FC002E39E5 /* CounterViewController.swift in Sources */,
+				D50EA6CD2476E8D6002E39E5 /* StatisticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +346,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDNVRYS434;
-				INFOPLIST_FILE = WorkoutCounter/Info.plist;
+				INFOPLIST_FILE = WorkoutCounter/Etc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -294,7 +355,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wc.group.WorkoutCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -304,7 +365,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WDNVRYS434;
-				INFOPLIST_FILE = WorkoutCounter/Info.plist;
+				INFOPLIST_FILE = WorkoutCounter/Etc/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +374,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = wc.group.WorkoutCounter;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
